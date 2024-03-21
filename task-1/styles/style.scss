@@ -1,0 +1,28 @@
+@import 'vars';
+@import 'header';
+@import 'intro';
+@import 'description';
+@import 'gallery';
+@import 'counter';
+@import 'blog';
+@import 'footer';
+
+*, html, body {
+    margin: $default-margin;
+    padding: $default-padding;
+}
+
+.page {
+    font-family: $main-font;
+    background-color: $bg-color;
+    padding-top: 53px;
+    padding-bottom: 134px;
+}
+
+button, input {
+    font-family: $main-font;
+}
+
+.centered {
+    margin: 0 auto;
+}
