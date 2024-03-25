@@ -6,6 +6,9 @@
 @import 'counter';
 @import 'blog';
 @import 'footer';
+@import 'pagination';
+@import 'post';
+@import 'overlay';
 
 *, html, body {
     margin: $default-margin;

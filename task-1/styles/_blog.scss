@@ -3,9 +3,17 @@
 
     &__cards {
         list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        column-gap: 27px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(382px, 1fr));
+        gap: 27px;
+    }
+
+    &__title {
+        font-family: $headers-font;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 125%;
+        margin-bottom: 30px;
     }
 
     &__img-container {
