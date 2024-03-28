@@ -9,6 +9,9 @@
 @import 'pagination';
 @import 'post';
 @import 'overlay';
+@import 'full-post';
+@import 'navigation';
+@import 'tags';
 
 *, html, body {
     margin: $default-margin;
